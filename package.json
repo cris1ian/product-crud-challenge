@@ -1,0 +1,28 @@
+{
+  "name": "product-crud-challenge",
+  "version": "1.0.0",
+  "description": "A simple CRUD for a Producto manager",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "start": "npm run index.ts"
+  },
+  "keywords": [
+    "demo",
+    "products",
+    "fullstack",
+    "challenge"
+  ],
+  "author": "Cristian Martínez D'Urbano",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
